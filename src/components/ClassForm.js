@@ -21,6 +21,9 @@ handlePassword(e) {
 
 handleSubmit(e) {
     e.preventDefault()
+    console.log(this.state.name);
+    console.log(this.state.email);
+    console.log(this.state.password);
     this.setState({name: "", email: "", password: ""})
 }
 
